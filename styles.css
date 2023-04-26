@@ -1,0 +1,180 @@
+#title {
+    background-color: #000000 ;
+}
+body {
+    font-family: 'Libre Franklin';
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Jost';
+    font-size: 2rem;
+    line-height: 3rem;
+}
+p {
+    color:rgb(225, 201, 19);
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/* headings */
+
+.big-heading {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgb(225, 201, 19);
+    text-align: left;
+}
+.feature-heading {
+    font-family: 'Montserrat';
+    font-weight: 600; 
+    font-size: 1.5rem;
+    color: white;
+}
+.container-fluid {
+ padding: 3% 15%;   
+}
+
+/* Nav Bar */
+
+.navbar {
+    padding: 0 0 4.5rem ;
+}
+.navbar-brand {
+    font-family: 'Jost';
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+ }
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+
+}
+
+/* DownButtons */
+
+.download-button {
+    margin: 10% 15% 10% 0;
+    font-family: 'Montserrat';
+}
+
+/* title image */
+
+.phone {
+    width: 70%;
+    margin-left: 100px;
+}
+.i-class {
+    padding-right: 7px;
+    font-weight: bold;
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #1f1d1d;
+}
+.feature-box  {
+    font-family: 'Jost';
+    padding: 5%;
+}
+.icon {
+    color:rgb(133, 133, 133);
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: rgb(231, 220, 123);
+}
+
+/* testimonials section */
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+em {
+    color: rgb(225, 201, 19);
+}
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+    background-color: #2d2c2c;
+    color: white;
+    font-family: 'Jost';
+    
+}
+.pricing-column {
+    padding: 3% 2%;
+    
+}
+.pricing-text {
+    color: black;
+    font-family: 'Jost';
+    margin-top: 10px;
+}
+.price-memory {
+    font-size: 1.5rem;
+}
+.price-feature {
+    color:rgb(175, 159, 42);
+    font-size: 1rem;
+    font-family: 'Libre Franklin';
+}
+
+/* cta */
+
+#cta {
+    background-color: black;
+    font-family: 'Jost';
+    padding: 7% 15%;
+}
+.cta-text {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgb(225, 201, 19);
+}
+.cta-button {
+    margin: 3% 3% 0% 0;
+    font-family: 'Montserrat';
+}
+
+/* footer section */
+
+#footer {
+    padding: 5% 10%;
+    background-color: #1f1d1d;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* media */
+
+@media (max-width: 983px) {
+    
+    #title {
+        text-align: center;
+    }
+    .phone {
+        position: static;
+    }
+}
